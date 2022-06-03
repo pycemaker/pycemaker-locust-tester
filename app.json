@@ -1,0 +1,18 @@
+{
+  "name": "Pycemaker Locust Loader",
+  "description": "Aplicação que simula concorrência de uso na aplicação Formulário",
+  "repository": "https://github.com/pycemaker/pycemaker-locust-loader",
+  "logo": "https://raw.githubusercontent.com/pycemaker/pycemaker-dashboard-client/main/src/assets/icon.png",
+  "keywords": ["locust", "stress"],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "private-s"
+    },
+    "worker": {
+      "quantity": 1,
+      "size": "private-m"
+    }
+  },
+  "image": "heroku/python"
+}
